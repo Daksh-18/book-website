@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Daksh-18.github.io/bsite",
+  "homepage": "https://Daksh-18.github.io/book-website",
   "name": "ebook-website",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "npmp run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
