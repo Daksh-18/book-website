@@ -1,0 +1,140 @@
+/* Global styles */
+/* .App{
+  text-align: center;
+  margin: 0;
+} */
+body {
+  margin: auto;
+  font-family: 'Georgia', serif;
+  background-color: #00a043;
+  
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: #00a043;
+  align-items: center;
+}
+
+.brand-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hero section styles */
+.hero {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 0px 20px;
+  margin: 15px;
+  margin-bottom: 30px;
+}
+
+.hero h1 {
+  font-size: 90px;
+  font-weight: bold;
+  color: white;
+  line-height: 0.8;
+}
+
+.hero-image {
+  /* padding-left: 70px;
+  padding-right: 70px; */
+  padding: 110px;
+  position: relative;
+  background-color: black;
+  height: 450px;
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+
+  
+  background-image: url('https://images.pexels.com/photos/3007370/pexels-photo-3007370.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  font-size: 18px;
+}
+
+
+
+/* For home and shop components */
+
+/* Additional CSS for the product grid */
+.main{
+  background-color: #E1DFD9
+  ;
+}
+.home-container, .shop-container {
+  /* max-width: 1200px; */
+  margin: 0 25px;
+  padding: 50px 67px;
+  text-align: center;
+  /* background-color: aliceblue; */
+}
+
+.headpro{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+h1 {
+  font-size: 36px;
+  color: black;
+  margin-bottom: 50px;
+  font-weight: lighter;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.shop-all-btn-container {
+  text-align: center;
+  /* margin-top: 30px; */
+  /* border-radius: 50%; */
+}
+
+.shop-all-btn {
+  background-color: transparent;
+  border: 2px solid black;
+  /* border-radius: 50%; */
+  padding: 20px 50px;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.shop-all-btn:hover {
+  background-color: #333;
+  color: white;
+}

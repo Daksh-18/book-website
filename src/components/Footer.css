@@ -1,0 +1,24 @@
+.footer-content{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+  
+}
+/* .footer-section h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+} */
+.footer-section p{
+    color: #1D231C;
+    font-size: 16px;
+    margin-bottom: -10px;
+}
+.footer-section a{
+    color: #209D50;
+}
+.footer-section a:hover{
+    text-decoration: underline;
+}
+
+
