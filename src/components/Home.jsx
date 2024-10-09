@@ -5,6 +5,7 @@ import Shop from './Shop.jsx';
 import About from './About';
 import '../App.css';
 
+
 const Home = () => {
   const products = [
     { id: 1, name: "A Tree Grows in Broklyn", price: "Rs 1150/-", imageUrl: "https://res.cloudinary.com/bookbub/image/upload/t_ci_ar_6:9_padded,f_auto,q_auto,dpr_1/v1557422591/pro_pbid_4184.jpg" },

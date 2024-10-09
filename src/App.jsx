@@ -6,10 +6,13 @@ import Home from './components/Home';
 import Shop from './components/Shop';
 import About from './components/About';
 import ContactUs from './components/ContactUs';
+// import Cart from './components/Cart';
 import Login from './components/Login';
 import Register from './components/Register';
 import Footer from './components/Footer';
+
 import './App.css';
+import { CartProvider } from './contexts/CartContext';
 // import router from 'express/lib/router';
 
 const App = () => {
@@ -19,7 +22,7 @@ const App = () => {
         <header className="header">
           <div className="brand-name">ReadSphere</div>
           <nav className="nav-links">
-            <Link to="/home">Home</Link>
+            <Link to="/">Home</Link>
             <Link to="/shop">Shop</Link>
             <Link to="/about">About</Link>
             <Link to="/contact">ContactUs</Link>
@@ -32,14 +35,14 @@ const App = () => {
         
 
         <main className='main'>
-          <Routes>
-            <Route path="/home" element={<Home />} />
-            <Route path="/shop" element={<Shop />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<ContactUs/>} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/register" element={<Navigate to="login" />} />
-          </Routes>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/shop" element={<Shop />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<ContactUs/>} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/register" element={<Navigate to="login" />} />
+            </Routes>
         </main>
         <Footer />
       </div>
