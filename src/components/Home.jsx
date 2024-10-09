@@ -1,6 +1,8 @@
 import React from 'react';
 import ProductCard from './ProductCard';    
 // import About from './About.jsx';
+import Shop from './Shop.jsx';
+import About from './About';
 import '../App.css';
 
 const Home = () => {
@@ -12,6 +14,20 @@ const Home = () => {
 
   return (
     <div className="home-container">
+      <section className="hero">
+          <div className="writing">
+            <h1><span>Welcome to</span></h1>
+            <h1><span>ReadSphere</span></h1>
+            <p>Where the world of books meets the world of you.</p>
+            <p>Your gateway to endless stories.</p>
+          </div>
+          <div className="hero-image">
+            {/* <div className="hero-text">
+              Welcome people t.
+            </div> */}
+          </div>
+      </section> 
+
       <div className='headpro'>
         <h1>Featured Products</h1>
         <div className="shop-all-btn-container">
@@ -29,6 +45,8 @@ const Home = () => {
         ))}
       </div>
       {/* <About /> */}
+      <Shop />
+      <About />
     </div>
   );
 };

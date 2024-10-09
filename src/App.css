@@ -11,12 +11,19 @@ body {
 }
 
 
+
 .header {
   display: flex;
   justify-content: space-between;
   padding: 20px 50px;
   background-color: #00a043;
   align-items: center;
+  /* position: fixed; */
+  /* position: sticky;
+  top: 0; */
+  /* width: 1400px;           */
+  width: 93vw ;
+  /* padding: 20px 50px; */
 }
 
 .brand-name {
@@ -43,6 +50,8 @@ body {
   padding: 0px 20px;
   margin: 15px;
   margin-bottom: 30px;
+  /* padding: 20px 180px; */
+  color: #333;
 }
 
 .hero h1 {
@@ -50,6 +59,8 @@ body {
   font-weight: bold;
   color: white;
   line-height: 0.8;
+  color: #333;
+
 }
 
 .hero-image {
