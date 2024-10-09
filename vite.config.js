@@ -7,9 +7,6 @@ export default defineConfig({
   build: {
     outDir: 'dist', // Specify the output directory
   },
-<<<<<<< Updated upstream
-  base: '/book-website/',
-=======
   // base: '/book-website/',
->>>>>>> Stashed changes
+  
 })
